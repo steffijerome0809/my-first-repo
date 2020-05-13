@@ -22,7 +22,7 @@ img {
 }
 
 .item {
-  background-color: #ff5533;
+  background-color: black;
   margin-bottom: 1.875em;
   webkit-column-break-inside: avoid;
   -moz-column-break-inside: avoid;
@@ -30,6 +30,25 @@ img {
   overflow: hidden;
   border-radius: 20px;
 }
+
+
+.nav-wrapper {
+  background-color: black;
+}
+
+a.brand-logo {
+  font-size: 4rem;
+  font-family: "Megrim", cursive;
+  font-weight: bold;
+}
+
+input {
+  color: white;
+  align-items: right;
+}
+
+i.large.material-icons {
+  font-size: 3rem;
 
 .image {
   width: 600px;
@@ -54,16 +73,9 @@ img {
   transition: 0.5s ease;
   background-color: #008cba;
 }
-/* Modal CSS */
-#modal1:hover .overlay {
-  opacity: 50%;
-}
 
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
+#modal:hover .overlay {
+  opacity: 50%;
 }
 .text {
   color: white;
@@ -78,4 +90,21 @@ img {
 }
 body {
   background-color: black;
+}
+
+a.dropdown-trigger {
+  color: black;
+  font-family: "Megrim", cursive;
+}
+
+.search-mobile {
+  width: 70%;
+}
+
+.sidenav {
+  background-color: black;
+}
+
+i.left {
+  margin-right: 5px;
 }
